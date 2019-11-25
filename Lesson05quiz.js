@@ -17,20 +17,24 @@ const OWNER_DATA = {
 const Lesson05quiz = () => {
   return (
     <ScrollView>
-      <Text>Name:</Text>
-      <Text>----------{PET_DATA.name}</Text>
-      <Text>Age:</Text>
-      <Text>----------{PET_DATA.age} years old</Text>
-      <Image source={PET_DATA.image} />
+      <View>
+        <Text>Name:</Text>
+        <Text>----------{PET_DATA.name}</Text>
+        <Text>Age:</Text>
+        <Text>----------{PET_DATA.age} years old</Text>
+        <Image source={PET_DATA.image} />
+      </View>
 
-      <Text>Owner Information</Text>
-      <Text>--------------------</Text>
-      <Text>Name:</Text>
-      <Text>----------{OWNER_DATA.name}</Text>
-      <Text>Age:</Text>
-      <Text>----------{OWNER_DATA.contact}</Text>
-      <Text>Membership:</Text>
-      <Text>----------{OWNER_DATA.membership}</Text>
+      <View>
+        <Text>Owner Information</Text>
+        <Text>--------------------</Text>
+        <Text>Name:</Text>
+        <Text>----------{OWNER_DATA.name}</Text>
+        <Text>Age:</Text>
+        <Text>----------{OWNER_DATA.contact}</Text>
+        <Text>Membership:</Text>
+        <Text>----------{OWNER_DATA.membership}</Text>
+      </View>
     </ScrollView>
   );
 };
